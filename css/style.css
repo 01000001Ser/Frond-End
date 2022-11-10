@@ -1,0 +1,99 @@
+*{
+    font-family: 'Patua One', cursive;
+    color: #ffff;
+    list-style: none;
+    box-sizing: border-box;
+}
+
+:root{
+    --color-negro1:#202020
+}
+
+span{
+    filter: invert();
+}
+button[type="button"]{
+    background-color: #000;
+}
+.navbar-expand-lg{
+    background-color: #000;
+}
+.container-fluid{
+    background-color: #000;
+}
+main span{
+    color: rgb(255, 255, 255);
+}
+.letra{
+    filter: invert(0);
+    color: rgb(109, 17, 17);
+    font-size:32 ;
+    
+}
+.subtitle-main{
+    color: rgb(189,189,189);
+}
+
+@media all and (min-width:240px){
+/*------------------- estilos contenedor---------------------*/
+    #container{
+        height: 100%;
+        min-width:100%;
+        max-width:100%;
+        background-color:var(--color-negro1);
+    }
+/*-----------------Estilos logos---------------*/
+    #logo{
+        height: 50vh;/*Altura de logo*/
+
+    }
+    #logo img{
+        height: 100%;
+        position: relative;
+        left:3em;
+    }
+/*-----------------Fin de estilos del logo--------*/
+
+/*-------------Estilos de barra de navegacion--------*/
+.navbar-nav li{
+        border: 1px solid rgb(125,125,125);
+        text-align: center;
+    }
+    .link-nav{
+        text-decoration: none;
+        color:rgb(156, 156, 156);
+        display:block;
+    }
+/*Fin de estilo de barra de navegacion--------------*/
+
+/*------------Estilos de main-------------*/
+    main h1{
+        font-size:2.5rem;
+        text-align: center;
+    }
+    main h2{
+        font-size:1.2rem;
+        text-align:center;
+    }
+    .mainbutton{
+        border: 2px solid rgb(161, 40, 40);
+        color:rgb(161, 40, 40);
+        background-color: var(--color-negro1);
+        padding: .4em;
+        margin:2em 0 2em 4em;
+    }
+    main figure{
+        margin-bottom:2em;
+        height: 20vh;
+    }
+    main figure img{
+        height:100%;
+        position: relative;
+        left:4.5em;
+        bottom:1em;
+        filter: invert(1);
+
+    }
+  
+   
+}
