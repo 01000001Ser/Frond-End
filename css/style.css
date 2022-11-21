@@ -1,10 +1,140 @@
 *{
     font-family: 'Patua One', cursive;
     color: #ffff;
+
     list-style: none;
     box-sizing: border-box;
 }
 
 :root{
     --color-negro1:#202020
+}
+body{
+    background-color: var(--color-negro1);
+}
+header{
+    height: 100vh;
+    max-width:100vw ;
+}
+.flex{
+    display: flex;
+}
+.logo-arg-cont{
+    height: 10vh;
+}
+#logo{
+    height: 100%;
+}
+h2{
+    position: relative;
+    top:.4em;
+    left:.2em;
+}
+b{
+    color:rgb(107, 171, 255)
+}
+#sol{
+    color: rgb(241, 236, 156);
+}
+nav{
+    height: 10vh;
+    width:20vw;
+    position: relative;
+    left:35em;
+}
+
+button{
+    position: relative;
+    top:1em;
+    right:7em;
+    border:2px solid rgb(119, 12, 12);
+    padding:.3em .6em;
+    font-size: 10px;
+    background-color: var(--color-negro1);
+    color:rgb(65, 63, 63)
+}
+button:hover{
+    border-color:rgb(253, 26, 26) ;
+    color:rgb(252, 252, 252);
+}
+
+nav ul{
+    display: flex;
+    position: relative;
+    bottom:2.3em;
+    right:2em;
+}
+ul li{
+    margin:1.3em;
+    display: inline-block;
+}
+ul li a{
+    display: block;
+}
+
+.icon{
+    font-size: 1.3em;
+    position: relative;
+    top:.1em;
+    color: rgb(109, 108, 108);
+    padding:7px 8px;
+    background-color: var(--color-negro1);
+    border-radius: 100%;
+}
+.whatsapp:hover{
+    color:rgb(60, 211, 161);
+    background-color:rgb(255, 255, 255);
+    
+}
+.facebook:hover{
+    color:rgb(30,100,205);
+    background-color:rgb(255, 255, 255);
+}
+.instagram:hover{
+    color:#fff;
+    background:radial-gradient(rgb(211, 66, 180),rgb(209, 161, 71),rgb(59, 145, 214));
+}
+.linkedin:hover{
+    color:rgb(49, 100, 175);
+    background-color:rgb(255, 255, 255);
+}
+.fondo-header{
+
+    position: relative;
+    bottom: 3em;
+    margin: 6em;
+    height: 75vh;
+    background-color: black;
+    border-radius:4% ;
+}
+
+#back-header{
+    position: relative;
+    left: 3rem;
+    top:3em;
+    width: 90%;
+    border-radius:2%;
+}
+.datos-container{
+    background-color: rgb(17, 16, 16);
+    position: relative;
+    bottom:16em;
+    display: flex;
+}
+#img-perfil{
+    height: 20vh;
+    position: relative;
+    left: 2em;
+    top: .2em;
+    margin: .5em 2em;
+}
+#img-perfil img{
+    height: 100%;
+    border: 4px solid #fff;
+    border-radius: 90%;
+}
+h1{
+    position: relative;
+    top:1em;
+    left: 1.4em;
 }
